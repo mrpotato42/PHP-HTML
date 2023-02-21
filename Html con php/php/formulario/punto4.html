@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>punto4</title>
+		<link rel="stylesheet" type="text/css" href="../Reset.css">
+		<link rel="stylesheet" type="text/css" href="../est.css">
+	</head>
+	<body>
+		<fieldset>
+			<form action="action/php4.php" method="post">
+				<label>Ingrese numeros</label>
+				<br><br>
+				<input type="number" autofocus name="numero1" value="" placeholder="Numero">
+				<br><br>
+				<input type="number" autofocus name="numero2" value="" placeholder="Numero">
+				<br><br>
+				<select required name="sel">
+                    <option value="suma">Suma</option>
+                    <option value="resta">Resta</option>
+                    <option value="multiplicacion">Multiplicacion</option>
+                    <option value="division">Division</option>
+            	</select>
+            	<br><br>
+				<input type="submit" name="enviar"><br><input type="reset" name="restaurar">
+			</form>
+		</fieldset>
+	</body>
+</html>

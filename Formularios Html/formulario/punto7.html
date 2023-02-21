@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Formulario</title>
+		<link rel="stylesheet" type="text/css" href="../Reset.css">
+		<link rel="stylesheet" type="text/css" href="../est.css">
+	</head>
+	<body>
+		<fieldset>
+			<form action="#">
+				<label>Ingrese su nombre</label><input autofocus type="text" name="nombre" value="" placeholder="Nombre">
+				<br><br>
+				<label>Elija los lenguajes que conoce:</label>
+				<br>
+				<input type="checkbox" name="lenguaje" value="Java"><label>Java</label>
+				<br><br>
+				<input type="checkbox" name="lenguaje" value="c++"><label>C++</label>
+				<br><br>
+				<input type="checkbox" name="lenguaje" value="c#"><label>C#</label>
+				<br><br>
+				<input type="checkbox" name="lenguaje" value="JavaScript"><label>JavaScript</label>
+				<br><br>
+				<label>Seleccione un motor de BD:</label>
+				<br>
+				<select>
+					<optgroup label="Motores BD">
+					<option>MongoBD</option>
+					<option>Apache Cassandra</option>
+					<option>HyperSQL</option>
+					<option>Hypertable</option>
+				</select>
+				<br><br>
+				<label>Seleccione un navegador:</label>
+				<br>
+				<select>
+					<optgroup label="Navegador">
+					<option>Opera</option>
+					<option>Mozilla Firefox</option>
+					<option>Google Chrome</option>
+					<option>Internet Explore</option>
+				</select>
+				<br><br>
+				<input type="submit" name="enviar"><input type="reset" name="restaurar">
+			</form>
+		</fieldset>
+	</body>
+</html>

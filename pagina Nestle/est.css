@@ -1,0 +1,55 @@
+body::after{
+	content: "";
+	background-image: url(imagenes/fondos/nestle.jpg);
+	opacity: 0.5;
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+body{
+	text-align:center;
+}
+table{
+	margin: 0 auto;
+	text-align:center;
+	background: #fff;
+	width: 20%;
+	border:1px solid #000;
+	border-spacing: 0;
+}
+td{
+	width:20%;
+	border:1px solid #000;
+	text-align: left;
+	vertical-align:top;
+	padding: 0.3em;
+}
+th{
+	width:20%;
+	border:1px solid #000;
+	text-align: center;
+	vertical-align:top;
+	padding: 0.3em;
+}
+h1{
+	font-family: "impact";
+	font-weight: 800;
+}
+#txth3:hover{
+	color: purple;
+}
+#pEmp{
+	text-align:right;
+	font-family: "impact";
+}
+#pIni{
+	text-align:left;
+	font-family: "impact";
+}
+#tdEmp:hover{
+	background: red;
+}
+
